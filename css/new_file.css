@@ -1,0 +1,232 @@
+*{
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+em,i{
+	list-style: none;
+	font-style: normal;
+}
+body{
+	margin: 0;
+	background: #f2f2f2;
+}
+.box{
+	max-width:10rem;
+	margin: 0 auto;			
+}
+.items{
+	padding: 0.25rem .25rem 0 .25rem;
+	margin-bottom: 1.12rem;
+}
+.items-list li{
+	background: #fff;
+	padding: 0.2rem 0.12rem 0;
+	border-radius: 0.08rem;
+	margin-bottom: 0.35rem;
+	position: relative;
+}
+.item-head-icon{
+	position: absolute;
+	top: 0.37rem;
+	left: 0.31rem;
+	background: #FFFFFF;
+	width: 1.13rem;
+	height: 0.38rem;
+	border-radius: 0.18rem;	
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.38rem;
+}
+.item1 .item-head-icon{
+	color: #a332fe;
+}
+.item4 .item-head-icon{
+	color: #fbb319;
+}
+.item5 .item-head-icon{
+	color: #00b698;
+}
+.item6 .item-head-icon{
+	color: #1aa1dd;
+}
+.items-list li.item4,.items-list li.item5,.items-list li.item6{
+	margin-bottom: 0.16rem;
+}
+.item-content{
+	display: flex;
+	justify-content: space-between;
+}
+.item5,.item6{
+	width: 49%;
+}
+.item-head{
+	height: 3.4rem;
+	overflow: hidden;
+}
+.item-head img{
+	display: block;
+	border-radius: 0.04rem;
+}
+.item-bottom{
+	height: 0.76rem;
+	font-size: 0.3rem;
+	color: #656565;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.item5 .item-bottom-icon,.item6 .item-bottom-icon{
+	width: 1.2rem;
+}
+.item5 .item-head,.item6 .item-head{
+	height: 3.1rem;
+}
+.item-bottom-icon{
+	width: 1.4rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.item-bottom-icon a i{
+	display: block;
+	width: .36rem;
+	height: .36rem;
+}
+.icon-heart{
+	background: url(../img/heart.png) center center no-repeat;
+	background-size: 0.35rem 0.31rem;
+}
+.icon-arrow{
+	background: url(../img/arrow.png) center center no-repeat;
+	background-size: 0.35rem 0.31rem;
+}
+.bar{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: .96rem;
+	padding:.08rem .25rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	font-size: 0.24rem;
+}
+.bar-item{
+	color: #9f9f9f;;
+	display: flex;
+	align-items:center ;
+	flex-direction: column;
+}
+.bar-item i{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-size: 0.44rem 0.44rem;
+}
+.skill-icon{
+	background: url(../img/skill.png) center center no-repeat;			
+}
+.works-icon{
+	background: url(../img/works.png) center center no-repeat;
+}
+.case-icon{
+	background: url(../img/case.png) center center no-repeat;
+}
+
+/*works-detail*/
+.works-detail{
+	background:#FFFFFF;
+	margin-bottom: 0;
+}
+.works-detail-head{
+	font-size: .48rem;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.works-detail-head i{
+	width: 2.05rem;
+	height: .69rem;
+	display: block;
+}
+.fire{
+	background: url(../img/fire-8.9.png) center center no-repeat;
+	background-size: 2.05rem .69rem;
+}
+.statistics{
+ 	width: 5.15rem;
+	font-size: .24rem;
+	color: #b8bfc4;	
+	padding:.2rem 0 .3rem 0;
+}
+.statistics ul{
+	display: flex;
+	justify-content: space-between;	
+}
+.statistics ul li{
+	display: flex;	
+	align-items: center;
+}
+.statistics i{
+	width: .4rem;
+	height: .4rem;
+	display: block;
+	margin-right: .1rem;
+}
+.statistics-heart{
+	background:url(../img/statistics-heart.png) center center no-repeat ;
+	background-size: .4rem .4rem;
+}
+.statistics-share{
+	background:url(../img/statistics-share.png) center center no-repeat ;
+	background-size: .4rem .4rem;
+}
+.statistics-time{
+	background:url(../img/statistics-time.png) center center no-repeat ;
+	background-size: .4rem .4rem;
+}
+
+.works-detail-img{
+	position: relative;
+	font-size: 0;
+}
+.works-detail-img .item-head-icon{
+	color: #f7e14d;
+}
+.skill-text{
+	font-size: .3rem;
+	color: #6e6e6e;
+}
+.skill-text p{
+	line-height: .5rem;
+	margin: 0;
+	padding-bottom: .5rem;
+}
+.case-head-icon{
+	background: #FFFFFF;
+	width: 1.13rem;
+	height: 0.38rem;
+	border-radius: 0.18rem;	
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: #f9b722;
+	box-shadow: 0 0 10px 3px #f4f7f8;
+}
+.case-icon-heart{
+	background: url(../img/heart-black.png) center center no-repeat;
+	background-size: 0.36rem 0.36rem;
+}
+.case-icon-arrow{
+	background: url(../img/huizhang.png) center center no-repeat;
+	background-size: 0.36rem 0.36rem;
+}
